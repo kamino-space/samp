@@ -13,4 +13,5 @@ fi
 
 #start server
 echo 'START SA-MP SERVER'
-cd /app/samp03 && exec ./samp03svr
+cd /app/samp03 
+./samp03svr

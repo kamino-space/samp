@@ -1,6 +1,7 @@
 FROM debian:8
+LABEL maintainer="kamino <kamino@imea.me>"
 WORKDIR /app
-EXPOSE 7777
+EXPOSE 7777/udp
 
 ENV RCON_PASSWORD=password
 
