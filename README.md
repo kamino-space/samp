@@ -19,3 +19,8 @@ docker run --name samp -p 7777:7777 -e RCON_PASSWORD=password samp:0.3.7
 docker run --name samp --restart always -d -p 7777:7777 -v $(pwd)/samp:/app/samp03 samp03:0.3.7
 #然后修改server.cfg
 ```
+
+## 查看日志
+```
+docker exec samp tail -f /app/samp03/server_log.txt
+```
