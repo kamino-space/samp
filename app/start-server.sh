@@ -4,6 +4,8 @@
 if [ ! -d '/app/samp03/samp03svr' ]; then
     echo 'INSTALL SERVER'
     tar -zxvf /app/samp*.tar.gz
+    pwd
+    ls
 fi
 
 #init
