@@ -4,8 +4,6 @@
 if [ ! -f '/app/samp03/samp03svr' ]; then
     echo 'INSTALL SERVER'
     tar -zxvf /app/samp*.tar.gz
-    pwd
-    ls
 fi
 
 #init
@@ -16,4 +14,4 @@ fi
 #start server
 echo 'START SA-MP SERVER'
 cd /app/samp03
-exec ./samp03svr
+./samp03svr
