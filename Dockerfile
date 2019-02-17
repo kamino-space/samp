@@ -14,4 +14,4 @@ RUN \
     tar -zxvf samp*.tar.gz
 
 CMD ["start-server.sh"]
-ENTRYPOINT [ "sh" ]
+ENTRYPOINT ["sh"]
